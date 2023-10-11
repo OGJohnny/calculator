@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display" id="display">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <div class="buttons">
+        <button id="digits" data-all-clear class="operators two-span">
+          AC
+        </button>
+        <button id="digits" data-delete class="operators">&larr;</button>
+        <button id="digits" data-operators class="operators">÷</button>
+        <button id="digits" data-number>7</button>
+        <button id="digits" data-number>8</button>
+        <button id="digits" data-number>9</button>
+        <button id="digits" data-operators class="operators">x</button>
+        <button id="digits" data-number>4</button>
+        <button id="digits" data-number>5</button>
+        <button id="digits" data-number>6</button>
+        <button id="digits" data-operators class="operators">-</button>
+        <button id="digits" data-number>1</button>
+        <button id="digits" data-number>2</button>
+        <button id="digits" data-number>3</button>
+        <button id="digits" data-operators class="operators">+</button>
+        <button id="digits" data-number>0</button>
+        <button id="digits" data-number>.</button>
+        <button id="digits" data-equals class="operators two-span">=</button>
+      </div>
+    </div>
+  </body>
+</html>
